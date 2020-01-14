@@ -1,0 +1,99 @@
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    background: #eee;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    grid-template-columns: 100%;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+.item1{
+    grid-area: header;
+    text-align: center;
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+.description{
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.item2{
+    background: white;
+    grid-area: content;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+#img-div{
+    padding: 10px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;   
+    margin: 0 auto;   
+}
+.item3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-area: footer;
+    text-align: center;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1{
+    font-size: 2em;
+}
+figcaption{
+    margin: 15px 0 5px 0;
+}
+li{
+    margin: 16px 0;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+.cite1{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+.cite2{
+    margin: 16px 0;
+}
